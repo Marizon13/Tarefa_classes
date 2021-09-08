@@ -1,4 +1,10 @@
-public class Consulta {
+/**
+ *CRIADO POR WELSON
+ */
+
+import java.util.Date;
+
+public class Consultorio {
 	public static void main(String[] args) {
 
 	//atendimento ao cliente
