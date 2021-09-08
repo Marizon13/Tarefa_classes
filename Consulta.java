@@ -1,15 +1,16 @@
 /**
  *CRIADO POR WELSON
  */
+package pessoa;
 
 import java.util.Date;
 
-public class Consultorio {
+public class Consulta {
 	public static void main(String[] args) {
 
 	//atendimento ao cliente
 		
-		String s = "MÃ©dico";
+		String s = "Médico";
 		s = s.toUpperCase();
 		s = s.concat(": Dr.Welson");
 		System.out.println(s);
