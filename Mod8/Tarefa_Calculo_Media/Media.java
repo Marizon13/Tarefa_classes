@@ -1,6 +1,6 @@
-package NotasEscola;
+ 
 
-public class Media {
+ public class Media {
 	public static void main(String[] args) {
 		
 		// Notas do aluno Pedro

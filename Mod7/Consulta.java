@@ -1,16 +1,12 @@
-/**
- *CRIADO POR WELSON
- */
-package pessoa;
-
-import java.util.Date;
+/** Criado por Welson
+ **/
 
 public class Consulta {
 	public static void main(String[] args) {
 
 	//atendimento ao cliente
 		
-		String s = "Médico";
+		String s = "MÃ©dico";
 		s = s.toUpperCase();
 		s = s.concat(": Dr.Welson");
 		System.out.println(s);
@@ -25,10 +21,7 @@ public class Consulta {
 		y = y.concat(": Rose da silva");
 	    System.out.println(y);
 	    
-	    // DIA E HORA DA CONSULTA
-	    
-	    Date z = new Date();
-		 System.out.println(z);
+	  
 	}
 
 }
