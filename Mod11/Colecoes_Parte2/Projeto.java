@@ -11,25 +11,33 @@ public class Projeto {
 	
      Scanner scanner = new Scanner(System.in);
      ArrayList<String> usuarios = new ArrayList();
-   
+     ArrayList<String> usuarios2 = new ArrayList();
+     
+     
      for(int i = 0; i < 3; i++) {
+    	  
     	 
-    	 
-    	 System.out.println("Nome usuario");
+    	 System.out.println("Nome usuario masculino");
     	 String nome = scanner.nextLine();
-    	 System.out.println("Genero M para masculino e F para feminino");
-    	 String genero = scanner.nextLine();
+    
+    	
+    	 System.out.println("Nome do usuario feminino");
+    	 String nome2 = scanner.nextLine();
+    
+    	
     	 String u = new String();
     	 usuarios.add(nome);
-    	 usuarios.add(genero);
+    	 usuarios2.add(nome2);
     	
     	
     	
     	 
      }
      
-     System.out.println("Lista dos usuarios e generos"  +  usuarios);
-     
+    
+	 System.out.println("Lista dos usuarios masculinos"  +  usuarios );
+
+     System.out.println("Lista dos usuarios femininos"  +  usuarios2 );
  
 
 
