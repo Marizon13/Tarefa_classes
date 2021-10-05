@@ -1,11 +1,10 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
 
-public class Projeto {
+public class Projeto{
 
  public static void main(String[] args) {
 	
@@ -13,32 +12,35 @@ public class Projeto {
      ArrayList<String> usuarios = new ArrayList();
      ArrayList<String> usuarios2 = new ArrayList();
      
-     
-     for(int i = 0; i < 3; i++) {
-    	  
-    	 
-    	 System.out.println("Nome usuario masculino");
+   
+         for(int i = 0; i < 5; i++) {
+    	     	   		
+    	 System.out.println("Digite o Nome");
     	 String nome = scanner.nextLine();
-    
-    	
-    	 System.out.println("Nome do usuario feminino");
-    	 String nome2 = scanner.nextLine();
-    
-    	
-    	 String u = new String();
-    	 usuarios.add(nome);
-    	 usuarios2.add(nome2);
-    	
-    	
-    	
     	 
-     }
-     
-    
-	 System.out.println("Lista dos usuarios masculinos"  +  usuarios );
+    	 System.out.println("Digite o Sexo");
+    	 String sexo = scanner.nextLine();
+    	 
+    	 
+         
+    	if (sexo.equals("F")) {
+    		usuarios.add(nome);
+	 
+	    	
+        	 
+    	} else {
+        
+    		usuarios2.add(nome);
 
-     System.out.println("Lista dos usuarios femininos"  +  usuarios2 );
- 
+    	}
+    		{
 
+    		
+    	    	System.out.println("Usuarios do Grupo Feminino" + usuarios);
+    	    	System.out.println("Usuarios do Grupo Masculino" + usuarios2);
+    		} }
+    	
 
+   	
+         
 }}
