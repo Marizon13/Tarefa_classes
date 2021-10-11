@@ -27,8 +27,10 @@ public class Modulo12 {
 		Scanner scanner = new Scanner(System.in);
 		ArrayList<String> feminino = new ArrayList();
 		ArrayList<String> masculino = new ArrayList();
-
-		System.out.println("Digite o Nome e o sexo separados por ,");
+		
+		System.out.println("Digite o Nome-F para sexo Feminino ou Nome-M para sexo Masculino:");
+		// EXEMPLO: Maria-F,João-M,Lucia-F,Marcio-M
+		
 		String nome1 = scanner.nextLine();
 
 		String[] separadores = nome1.split(",");
